@@ -14,6 +14,7 @@ body {
 
 a {
   cursor: pointer;
+  color:inherit;
   text-decoration: none;
   transition: all 0.25s ease-in-out; }
 
@@ -467,7 +468,8 @@ h4 {
       border: 0;
       background-image: linear-gradient(101deg, #2675c2, #00a8cb 88%, #374a5b);
       color: #FFF;
-      margin-top: 1em; }
+      margin-top: 1em;
+      cursor:pointer; }
     .overview-content .code code {
       vertical-align: middle;
       color: #FFF;
