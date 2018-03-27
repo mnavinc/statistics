@@ -470,6 +470,9 @@ h4 {
       color: #FFF;
       margin-top: 1em;
       cursor:pointer; }
+    .overview-content .col-2{
+      min-width:135px;
+    }
     .overview-content .code code {
       vertical-align: middle;
       color: #FFF;
@@ -567,7 +570,13 @@ footer {
     .jumbotron.fixed .breadcrumb {
       display: block; }
     .jumbotron.fixed .heading {
-      display: block; } }
+      display: block; }
+
+    .col-3 {
+        max-width: 100%;
+    }
+
+       }
 
 @media (max-width: 768px) {
   .content .cBlock-in.Sm + .cBlock-in.Sm {
